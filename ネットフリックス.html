@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix設定の運用変更について</title>
+    <meta name="description" content="Netflixの設定に関するお知らせです。">
+    <meta name="keywords" content="Netflix, 設定, お知らせ, 清掃クルー">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Google Fontsの追加 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesomeの追加（アイコン使用のため） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pJ2QbkF4W9VjXQXSmYGKUk6Cps4Z19F1Asx1Ea56Dtw9S+0lEGeY1f7Wz3Gsoxd/3uKmpGcB4fC9u+cKQ1f1FQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #0073e6;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s forwards ease-in-out;
+            text-align: center;
+        }
+
+        .important {
+            background-color: #fffbe6;
+            color: #d9534f;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .home-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 2px solid #0073e6;
+            border-radius: 5px;
+            color: #0073e6;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .home-link:hover {
+            background-color: #0073e6;
+            color: #fff;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>清掃クルーの皆さまへ</h1>
+    </header>
+    <main>
+        <div class="container">
+            <p><strong>☆ Netflixアカウント設定についてお知らせです！</strong></p>
+
+            <h2>✨ 運用変更のお知らせ ✨</h2>
+            <p>これまでNetflixのログイン設定をお願いしておりましたが、今後はゲスト様ご自身にログインしていただく運用に変更となります！</p>
+
+            <p class="important">💡 清掃時にNetflix設定は不要です！<br>通常の清掃業務に集中していただければOKです！😊</p>
+
+            <h3>📋 LINEノートについて</h3>
+            <p>今後、Netflixの設定情報をLINEノートから順次削除していきますのでご了解ください。</p>
+
+            <h3>✅ 清掃時の作業フロー ✅</h3>
+            <ul>
+                <li>1️⃣ リモコンの電源をONにする</li>
+                <li>2️⃣ Netflixボタンを押す</li>
+                <li>❌ ログイン情報の入力は不要です！</li>
+            </ul>
+
+            <p>【追記】<br>ゲスト様がログアウトしていない場合は、ログアウトし、すぐにログインできる画面にしてください。</p>
+
+            <p>ご不明点があれば気軽にご相談ください！引き続きよろしくお願いいたします✨</p>
+        </div>
+    </main>
+    <footer>
+        <a href="#" class="home-link">ホームに戻る</a>
+        <p>&copy; 2024 くくるクリーニング</p>
+    </footer>
+</body>
+</html>
